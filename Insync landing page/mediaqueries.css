@@ -1,0 +1,374 @@
+@media screen and (min-width: 1201px) {
+  .exp-details-container {
+    padding: 1rem;
+  }
+
+  .card__container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-inline: 2.5rem;
+  }
+  .card__img {
+    width: 310px;
+  }
+  .card__data {
+    width: 200px;
+    padding-inline: 2.5rem;
+  }
+  .card__article {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding-top: 9vh;
+    margin: 2rem 4rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Add padding for better spacing between the corners*/
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  .profile__section__pic-container {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding-top: 5rem;
+  }
+
+  #experience {
+    margin-top: 500px;
+  }
+
+  .experience-sub-title {
+    font-size: 1.5rem;
+  }
+
+  .project-grid {
+    margin-top: 4rem;
+    margin-left: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 2rem;
+  }
+
+  #about {
+    padding-top: 2vh;
+  }
+
+  .com-container {
+    margin-inline: 0.5rem;
+  }
+  .card__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+  .card__img {
+    width: 280px;
+  }
+  .card__data {
+    width: 150px;
+    padding-inline: 2.5rem;
+  }
+  .card__article {
+    margin: 1rem;
+  }
+
+  .pro__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 32px;
+    right: 20px;
+    background-size: 50px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #profile {
+    height: 83vh;
+  }
+  .profile__section__pic-container {
+    display: flex;
+    height: 290px;
+    width: 290px;
+    margin: auto;
+  }
+  article {
+    font-size: 1rem;
+  }
+
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 2.2rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .pro__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment for better mobile experience */
+    padding: 20px; /* Add padding for better spacing between the corners*/
+  }
+
+  .footer h1 {
+    font-size: 26px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .project-grid {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .project-img {
+    max-width: 50%;
+  }
+
+  #experience {
+    margin-top: 100px;
+  }
+
+  .experience-main-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .exp-details-container {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  section {
+    padding-top: 10vh;
+    margin: 2rem 4rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
+  #about {
+    padding-top: 8vh;
+  }
+  .com-container {
+    margin-inline: 0.5rem;
+  }
+  .card__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+  }
+
+  .card__img {
+    width: 270px;
+    border-radius: 1.5rem;
+  }
+
+  .card__data {
+    width: 170px;
+    padding: 1rem;
+  }
+
+  #back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 32px;
+    right: 20px;
+    background-size: 40px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .description {
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+
+  .com-title {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #experience {
+    margin-top: 100px;
+  }
+
+  .profile__section__pic-container {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+  }
+
+  .pro__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  section {
+    padding-top: 5vh;
+    margin: 2rem 2rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
+  #about {
+    padding-top: 4vh;
+  }
+
+  .com-container {
+    margin-inline: 0.5rem;
+  }
+
+  .card__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card__data {
+    width: 150px;
+    padding: 1rem;
+  }
+
+  .card__description {
+    font-size: 0.7rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .card__title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+
+  .card__button {
+    text-decoration: none;
+    font-size: 0.813rem;
+  }
+  .card__article {
+    margin: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .card__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1.5rem;
+  }
+
+  #back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-size: 35px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .description {
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: small;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: justify;
+  }
+
+  .com-title {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .project-grid {
+    margin-top: 2rem;
+    margin-left: 6rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .project-img {
+    width: 50%;
+  }
+
+  p {
+    color: whitesmoke;
+    font-weight: 200;
+    text-align: justify;
+    font-size: small;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 2rem;
+  }
+}

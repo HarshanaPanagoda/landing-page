@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InSync</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <link rel="icon" href="./images/logo.png" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">INSYNC</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#projects">Product</a></li>
+          <li><a href="#experience">Features</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">INSYNC</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#projects" onclick="toggleMenu()">Product</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Features</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero-->
+    <section id="profile">
+      <div class="section__text">
+        <h1 class="pro__title">INSYNC</h1>
+        <p class="description">
+          "Your Personal AI Assistant for Effortless Online Banking Experience"
+        </p>
+        <p class="pro_description">
+          Welcome to INSYNC, your trusted companion in the realm of online
+          banking. With our innovative AI-powered mobile application, we
+          redefine convenience and efficiency in the digital banking landscape.
+          No more frustrations with long wait times or complex procedures. We
+          simplify your banking journey, providing a seamless experience from
+          start to finish. Our intuitive interface and intelligent features
+          empower you to manage your finances effortlessly, while our dedicated
+          AI-driven support ensures prompt assistance whenever you need it. Say
+          farewell to inconvenience and embrace a new era of hassle-free banking
+          with "INSYNC".
+        </p>
+      </div>
+
+      <div class="profile__section__pic-container">
+        <img src="./images/logo.png" alt="product logo" />
+      </div>
+    </section>
+
+    <!--Prototype-->
+    <section id="projects">
+      <h1 class="title">Get To Know More</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="text-container">
+            <p class="description">
+              InSync is an AI-powered voice-based assistant used to communicate
+              with customers instead of relying on live operators for customer
+              service. The AI will quickly translate the customer’s spoken words
+              into text, analyses the content, generate a text response, and
+              convert it into a vocal response for the customer. If the AI is
+              unable to address the customer’s query, the call will
+              automatically transfer to a live operator.
+            </p>
+
+            <p class="description">
+              This AI-driven voice application allows customers to effortlessly
+              report issues via voice, ensuring seamless 24/7 service and
+              tailored solutions that account for the customer's emotional
+              state. This approach acknowledges the significance of human
+              conversation and voice in customer interactions, aiming to enhance
+              customer satisfaction and revolutionize customer support in the
+              banking industry.
+            </p>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="project-details-container">
+        <div class="project-grid">
+          <div class="project-card">
+            <div>
+              <img
+                src="./images/signIn.png"
+                alt="Sign In"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <div class="project-card">
+            <div>
+              <img
+                src="./images/signup.png"
+                alt="Sign Up"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <div class="project-card">
+            <div>
+              <img src="./images/app.png" alt="Home" class="project-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--features-->
+    <section id="experience">
+      <h1 class="title">Features</h1>
+      <p class="description">
+        InSync boasts a sophisticated voice assistant feature that enables
+        customers to interact with the application using natural language.
+        Customers can speak their queries, and the AI-powered system will
+        swiftly translate their words into text, analyze the content, and
+        generate a relevant response. This feature eliminates the need for
+        customers to navigate complex menus or type out their concerns,
+        enhancing convenience and accessibility. .
+      </p>
+      <div class="experience-main-container">
+        <div class="exp-details-container">
+          <h2 class="experience-sub-title">Live Operator Transfer</h2>
+          <div class="exp-item-container">
+            <article>
+              <div>
+                <p>
+                  If the AI-powered system is unable to address a customer's
+                  query satisfactorily, InSync seamlessly transfers the call to
+                  a live operator. This ensures that customers always receive
+                  the support they need, even for complex or nuanced issues. By
+                  combining AI-driven automation with human expertise, InSync
+                  offers a comprehensive support solution that caters to diverse
+                  customer needs
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="exp-details-container">
+          <h2 class="experience-sub-title">Loan Calculations</h2>
+          <div class="exp-item-container">
+            <article>
+              <div>
+                <p>
+                  Another key feature of InSync is its ability to perform loan
+                  calculations quickly and accurately. Customers can input
+                  relevant data, such as loan amount, interest rate, and
+                  repayment term, and InSync will generate detailed loan
+                  repayment schedules. This empowers customers to make informed
+                  financial decisions and better understand the implications of
+                  various loan options
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="exp-details-container">
+          <h2 class="experience-sub-title">Query Reporting</h2>
+          <div class="exp-item-container">
+            <article>
+              <div>
+                <p>
+                  InSync facilitates seamless reporting of customer queries
+                  directly to the bank as a third party. By consolidating and
+                  categorizing customer feedback, InSync provides valuable
+                  insights that banks can use to improve their products and
+                  services continuously. This feature fosters a proactive
+                  approach to customer relationship management, allowing banks
+                  to address issues promptly and enhance overall service quality
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="exp-details-container">
+          <h2 class="experience-sub-title">Map Integration</h2>
+          <div class="exp-item-container">
+            <article>
+              <div>
+                <p>
+                  InSync integrates mapping functionality to assist customers in
+                  locating nearby bank branches or ATMs. Whether customers need
+                  to make a deposit, withdraw cash, or access other banking
+                  services, they can rely on InSync to provide accurate and
+                  up-to-date location information. This feature enhances
+                  convenience for customers on the go, ensuring they can access
+                  banking services with ease
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="com-title">Meet The Team "InnoVerse 52"</p>
+      <div class="com-container">
+        <div class="card__container">
+          <article class="card__article">
+            <img src="./images/disandi.jpg" alt="Disadi" class="card__img" />
+
+            <div class="card__data">
+              <h2 class="card__title">Disandi Dinalaththa</h2>
+              <span class="card__description">Team Leader</span>
+            </div>
+          </article>
+          <article class="card__article">
+            <img src="./images/raveen2.jpg" alt="Raveen" class="card__img" />
+
+            <div class="card__data">
+              <h2 class="card__title">Raveen Dimbukkuwalage</h2>
+              <span class="card__description">Team Member</span>
+            </div>
+          </article>
+          <article class="card__article">
+            <img src="./images/harshana.jpg" alt="Harshana" class="card__img" />
+
+            <div class="card__data">
+              <h2 class="card__title">Harshana Dilshan</h2>
+              <span class="card__description">Team Member</span>
+            </div>
+          </article>
+          <article class="card__article">
+            <img src="./images/narmada.jpg" alt="Narmada" class="card__img" />
+
+            <div class="card__data">
+              <h2 class="card__title">Savandi Narmada</h2>
+              <span class="card__description">Team Member</span>
+            </div>
+          </article>
+          <article class="card__article">
+            <img src="./images/binew.jpg" alt="Binew" class="card__img" />
+
+            <div class="card__data">
+              <h2 class="card__title">Binew Mendis</h2>
+              <span class="card__description">Team Member</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <button id="back-to-top-btn"></button>
+
+    <footer>
+      <div class="footer container">
+        <h1>InSync</h1>
+        <p>Connect with us!</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
